@@ -1,0 +1,31 @@
+.pending-container {
+    position: relative;
+}
+
+.loader {
+    position: absolute;
+    width: 100%;
+    margin-top: 5%;
+    top: 60px;
+}
+
+.state-message {
+    position: absolute;
+    top: 300px;
+    width: calc(100% - 5px);
+    background-color: rgb(18, 54, 163);
+    color: #ffffff;
+    border-right: 5px solid #00E6F6;
+    border-bottom: 2px solid #00E6F6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.state-message p {
+    margin: 0;
+}
+
+.explorer-link a{
+    color: #ffffff;
+    text-decoration: underline;
+}

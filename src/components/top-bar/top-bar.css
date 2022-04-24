@@ -1,0 +1,24 @@
+.top-bar-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(80, 80, 80, 0.5);
+    border-bottom: 1px solid #ffffff;
+}
+
+.logo-image {
+    width: 200px;
+}
+
+.menu-link {
+    width: fit-content;
+}
+
+.menu-link-item {
+    color: #ffffff;
+    margin-left: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}

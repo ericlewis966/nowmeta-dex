@@ -1,0 +1,30 @@
+.swap {
+    width: 30%;
+    min-width: 320px;
+    min-height: 400px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(247, 245, 245, 0.25) 0px 14px 28px, rgba(247, 244, 244, 0.22) 0px 10px 10px;
+}
+
+.swap-setting {
+    width: calc(100% - 5px);
+    background-color: rgb(18, 54, 163);
+    border-right: 5px solid #00E6F6;
+    border-bottom: 2px solid #00E6F6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.swap-label {
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.open-setting {
+    margin-right: 25px;
+}

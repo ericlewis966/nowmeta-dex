@@ -1,0 +1,101 @@
+.search-token {
+    width: 90%;
+}
+
+.modal-header {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: calc(100% - 5px);
+    height: 70px;
+    background-color: rgb(18, 54, 163);
+}
+
+.search-token-input {
+    width: 100%;
+    min-width: 300px;
+    border: 1px solid rgb(18, 54, 163);
+    color: #000;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.search-token::placeholder {
+    color: rgb(122, 120, 120);
+}
+
+.token-list-wrapper {
+    width: 85%;
+    margin-top: 2%;
+    height: 350px;
+    overflow: auto;
+    padding: 2%;
+    border: 1px solid rgb(18, 54, 163);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    scrollbar-darkshadow-color: #000;
+}
+
+.token-list {
+    width: 100%;
+    min-width: 300px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.coin-item {
+    margin-top: 5px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.coin-item-disabled {
+    cursor: not-allowed;
+}
+
+.coin-item:hover {
+    background-color: #c9c9c9;
+    border-radius: 50px;
+    padding-right: 5px;
+}
+
+.asset-ico img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.asset-ico {
+    margin-right: 2%;
+}
+
+.asset-symbol {
+    margin-right: 5%;
+}
+
+.asset-name {
+    margin-right: 2%;
+}
+
+.special-list {
+    width: 100%;
+}
+
+.binance-coin {
+    width: 90%;
+    margin-top: 2%;
+    border: 1px solid rgb(18, 54, 163);
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.binance-coin:hover {
+    background-color: #c9c9c9;
+}
+
+.binance-coin img {
+    width: 40px;
+}

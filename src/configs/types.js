@@ -1,0 +1,9 @@
+export const INPUT = "INPUT";
+export const OUTPUT = "OUTPUT";
+
+export const V2ROUTER_ADDRESS = "0x4e90C36F049FE5Dd6347Cf01cAd993F5213BB9f5";
+export const V2FACTORY_ADDRESS = "0xB742abDaA9d0552aA03e47B4563d8E54f95F2de9";
+
+export const zero_address = "0x0000000000000000000000000000000000000000";
+
+export const wbnb_address = "0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F";

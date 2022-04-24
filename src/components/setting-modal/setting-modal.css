@@ -1,0 +1,83 @@
+.transaction-setting {
+    padding-top: 4%;
+}
+
+.modal-header {
+    background-color: rgb(18, 54, 163);
+    color: #ffffff;
+    border-right: 5px solid #00E6F6;
+    border-bottom: 2px solid #00E6F6;
+}
+
+.setting-caption {
+    height: 40px;
+}
+
+.default-slippage-setting {
+    height: 50px;
+    width: 90%;
+}
+
+.default-slippage-setting button {
+    border: 1px solid rgb(18, 54, 163);
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.default-slippage-setting button:hover {
+    background-color: rgb(18, 54, 163);
+    color: #ffffff;
+}
+
+.default-slippage-button {
+    width: 22%;
+}
+
+.slippage-setting-input {
+    border: 1px solid rgb(18, 54, 163);
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    color: #000000;
+}
+
+.slippage-setting-input::placeholder {
+    font-size: 20px;
+    color: #999999 !important;
+}
+
+.deadline-input {
+    border: 1px solid rgb(18, 54, 163);
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    color: #000000;
+}
+
+.deadline-input::placeholder {
+    font-size: 20px;
+    color: #999999 !important;
+}
+
+.setting-confirm {
+    height: 100px;
+}
+
+.setting-confirm-button {
+    height: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting-notify span {
+    color: orange;
+}
